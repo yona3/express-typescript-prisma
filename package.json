@@ -22,6 +22,15 @@
   "dependencies": {
     "@prisma/client": "^2.24.1",
     "express": "^4.17.1",
-    "prisma": "^2.24.1"
+    "prisma": "^2.24.1",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "^2.2.1"
   }
 }
