@@ -5,6 +5,7 @@ This is my Express + TypeScript + Prisma starter template.
 - Express
 - TypeScript
 - Prisma
+- ESLint
 - Prettier
 - ts-node-dev
 
