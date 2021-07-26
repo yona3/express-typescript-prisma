@@ -7,7 +7,8 @@ This is my Express + TypeScript + Prisma starter template.
 - Prisma
 - ESLint
 - Prettier
-- ts-node-dev
+- Jest
+- SuperTest
 
 ## Usage
 
@@ -29,7 +30,7 @@ yarn prisma:init
 DATABASE_URL=****************
 ```
 
-[Prisma Document](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch-typescript-postgres) (Start from scratch)
+Please refer to [prisma document](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/relational-databases/connect-your-database-typescript-postgres) (Connect your database).
 
 4. prisma migrate
 
@@ -43,13 +44,19 @@ yarn prisma:migrate
 yarn dev
 ```
 
-6. build
+6. test
+
+```
+yarn test
+```
+
+7. build
 
 ```
 yarn build
 ```
 
-7. start server
+8. start server
 
 ```
 yarn start
